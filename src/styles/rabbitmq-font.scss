@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'rabbitmq';
+  src:    url('../fonts/rabbitmq.eot?g4qg9m');
+  src:    url('../fonts/rabbitmq.eot?g4qg9m#iefix') format('embedded-opentype'),
+  url('../fonts/rabbitmq.ttf?g4qg9m') format('truetype'),
+  url('../fonts/rabbitmq.woff?g4qg9m') format('woff'),
+  url('../fonts/rabbitmq.svg?g4qg9m#rabbitmq') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rabbitmq-icon {
+  display: inline-block;
+  font: normal normal normal 14px rabbitmq;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rabbitmq-icon:before {
+  content: "\e900";
+}
+
+

@@ -1,0 +1,77 @@
+header {
+  div {
+    nav {
+      ul {
+        li {
+          .btn-sm {
+            margin-top: .2em;
+          }
+        }
+      }
+    }
+    div.subheader {
+      padding: .25em 1em 0 1em;
+      font-size: .85em;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 0;
+  }
+  #collapsenav {
+    clear: both;
+  }
+}
+
+div.graph {
+  height: 200px;
+}
+
+.text-small {
+  font-size: .85em;
+}
+
+div.js-app {
+  padding: .5em 2em;
+}
+
+footer {
+  margin: 1.5em;
+  > div {
+    border-top: 1px solid $gray-lighter;
+    padding: .25em 1em;
+    font-size: .75em;
+    color: $gray;
+    a, a:hover {
+      color: $gray;
+    }
+  }
+}
+
+.card-block {
+  .table {
+    margin-bottom: 0;
+  }
+}
+
+.table-topless {
+  th {
+    border-top: 0;
+    padding-top: 0.25em;
+  }
+}
+
+h6.section {
+  border-bottom: 1px solid $gray-lighter;
+  margin: 1.25em 0 .75em 0;
+  padding: 0.25em 0;
+}
+
+.ports_and_contexts {
+  h6 {
+    padding: 0 0 .5em 0;
+  }
+
+}

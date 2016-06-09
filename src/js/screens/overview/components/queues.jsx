@@ -1,8 +1,6 @@
 import React from 'react';
 import 'react.backbone';
 
-import 'd3';
-import C3Chart from 'c3-react';
 
 export default React.createBackboneClass({
 
